@@ -27,6 +27,19 @@
       navigator.serviceWorker.register('sw.js')
     }
   </script>
+  <h1>Captura de Video desde la Cámara</h1>
+  <video id="video" autoplay></video>
   
+  <script>
+      // Acceder a la cámara y mostrar el video en el elemento <video>
+      navigator.mediaDevices.getUserMedia({ video: true })
+          .then(function (stream) {
+              var videoElement = document.getElementById('video');
+              videoElement.srcObject = stream;
+          })
+          .catch(function (error) {
+              console.error('Error al acceder a la cámara:', error);
+          });
+  </script>
 </body>
 </html>
