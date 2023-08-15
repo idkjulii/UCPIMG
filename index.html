@@ -22,5 +22,11 @@
 </head>
 <body>
   <img src="https://th.bing.com/th/id/OIP.nH8P8N1-V8_hQSCzpmk4ggHaEK?pid=ImgDet&rs=1" alt="Mi imagen">
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+  </script>
+  
 </body>
 </html>
