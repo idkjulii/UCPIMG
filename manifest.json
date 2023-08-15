@@ -9,7 +9,10 @@
   "short_name": "ucp.vercel",
   "start_url": "/",
   "theme_color": "#c59696",
-  "categories": [],
+  "categories": [
+    "books",
+    "education"
+  ],
   "screenshots": [],
   "icons": [],
   "shortcuts": []
