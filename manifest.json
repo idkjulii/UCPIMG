@@ -1,0 +1,16 @@
+{
+  "background_color": "#902c2c",
+  "description": "imagen ucp en el centro",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "ucp.vercel",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "ucp.vercel",
+  "start_url": "/",
+  "theme_color": "#c59696",
+  "categories": [],
+  "screenshots": [],
+  "icons": [],
+  "shortcuts": []
+}
